@@ -1,12 +1,7 @@
-# -*-coding:utf-8:-*-
-__author__ = 'marvin'
-
 import random
-
 import numpy as np
 import pandas as pd
 from itertools import groupby
-
 def launch_grp():
     launch = pd.read_csv('Data/app_launch_logs.csv')
     print(launch.date.min(), launch.date.max())
