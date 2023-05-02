@@ -52,11 +52,7 @@ print(train)
 train.to_csv('Data/churn_data_nosqe.csv', index=False)
 
 #feature_engineering：
-# -*-coding:utf-8:-*-
-__author__ = 'marvin'
-
 import random
-
 import numpy as np
 import pandas as pd
 from itertools import groupby
