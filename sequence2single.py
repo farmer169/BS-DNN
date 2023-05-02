@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 
@@ -30,7 +29,6 @@ print(train)
 
 temp_array2 = np.zeros((600001, 16))
 for i, item in enumerate(data['duration_prefer']):
-    # temp_array[i] = list(map(int, item.lstrip('[').rstrip(']').split(',')))
     temp_array2[i] = item.lstrip('[').rstrip(']').split(',')
 print(temp_array2.dtype)
 print(temp_array2.shape)
